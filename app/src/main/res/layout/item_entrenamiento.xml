@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtItemEjercicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ejercicio "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtItemDuracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Duración: 30 minutos"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtItemCalorias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calorías: 250" />
+
+    <TextView
+        android:id="@+id/txtItemFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha: 06/10/2026" />
+</LinearLayout>
