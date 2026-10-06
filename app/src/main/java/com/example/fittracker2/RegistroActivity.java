@@ -140,7 +140,7 @@ public class RegistroActivity extends AppCompatActivity {
             boolean estiramiento = chkEstiramiento.isChecked();
 
              // Obtener progreso y esfuerzo
-            int progreso = progressMeta.getProgress();
+
             float esfuerzo = ratingEsfuerzo.getRating();
 
             try {
